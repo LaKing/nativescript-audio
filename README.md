@@ -58,6 +58,10 @@ If you are going to use the recorder capability for Android, you need to add the
     <uses-permission android:name="android.permission.RECORD_AUDIO"/>
 ```
 
+#### Webpack
+
+The `webpack.config.js` file needs `webpack.Utils.addCopyRule("audio/**/*")` to import audio files into the project.
+
 ## Usage
 
 ### TypeScript Example
